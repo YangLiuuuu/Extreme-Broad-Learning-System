@@ -161,11 +161,6 @@ def label2onehot(labels, n):
     return res
 
 if __name__=="__main__":
-    N1 = 15   # of nodes belong to each window
-    N2 = 30   # of windows -------Feature mapping layer
-    N3 = 450  # of enhancement nodes -----Enhance layer
-    L = 5     # of incremental steps
-    M1 = 50   # of adding enhance nodes
     s = 0.8   # shrink coefficient
     C = 2**-30  # Regularization coefficient
 
